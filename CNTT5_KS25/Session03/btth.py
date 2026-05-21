@@ -1,14 +1,17 @@
-# Bước 1 : Dùng While : 
+# tính tổng các số chẵn từ 1 đến 100 
+sum = 0
+for i in range(1,101):
+    if i % 2 == 0:
+        sum += i
+print(sum)
 
-# B1 : Nhập số lượng nhân viên => input (số nguyên) => count_user
+# Người dùng nhập nếu đúng là 10 thì in ra trúng thưởng còn 
+# không thì in ra không trúng thưởng 
+# , nhập đến khi nào trúng thì thôi
 
-# B2 : Nhập thông tin của từng nhân viên => For lặp đúng bằng tổng số lương nhân viên range(count_user)
-#  B2.1 : body code : Tên nhân viên
-#                   Số ngày đi làm => Hiển thị 
-#  if else để xử lý :  số ngày đi làm của nhân viên:
+trung_thuong = 0
 
-
-
-
-
-
+while trung_thuong != 10:
+    trung_thuong = int(input("Nhập số trúng thưởng :"))
+    
+print("Đã trúng thưởng")
