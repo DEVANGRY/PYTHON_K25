@@ -1,0 +1,2 @@
+from .score_service import handle_calc_avg
+from .student_service import display_list_student
